@@ -8,6 +8,17 @@
 
 ```c
 $ aws iottwinmaker list-workspaces --region us-east-1
+{
+    "workspaceSummaries": [
+        {
+            "arn": "arn:aws:iottwinmaker:us-east-1:123456789012:workspace/MyWorkspace",
+            "creationDateTime": "2022-07-03T09:58:25.017000+09:00",
+            "description": "",
+            "updateDateTime": "2022-07-03T09:58:45.463000+09:00",
+            "workspaceId": "MyWorkspace"
+        }
+    ]
+}
 ```
 
 ## Reference
