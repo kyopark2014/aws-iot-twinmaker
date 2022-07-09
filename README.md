@@ -1,4 +1,4 @@
-# AWS TwinMaker
+# AWS IoT TwinMaker
 
 ## Basic
 
