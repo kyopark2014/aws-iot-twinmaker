@@ -6,7 +6,7 @@
 
 
 
-```c
+```java
 $ aws iottwinmaker list-workspaces --region us-east-1
 {
     "workspaceSummaries": [
@@ -20,6 +20,36 @@ $ aws iottwinmaker list-workspaces --region us-east-1
     ]
 }
 ```
+
+#### [componet list](https://docs.aws.amazon.com/cli/latest/reference/iottwinmaker/list-component-types.html) 조회 
+
+```java
+$ aws iottwinmaker list-workspaces --region us-east-1
+{
+    "componentTypeSummaries": [
+        {
+            "arn": "arn:aws:iottwinmaker:us-east-1:677146750822:workspace/MyWorkspace/component-type/com.mysensors.timestream-telemetry",
+            "componentTypeId": "com.mysensors.timestream-telemetry",
+            "creationDateTime": "2022-07-05T12:33:34.406000+09:00",
+            "status": {
+                "error": {},
+                "state": "ACTIVE"
+            },
+            "updateDateTime": "2022-07-05T12:33:34.406000+09:00"
+        },
+        {
+            "arn": "arn:aws:iottwinmaker:us-east-1:iotrociaccount:workspace/AmazonOwnedTypesWorkspace/component-type/com.amazon.iotsitewise.connector",
+            "componentTypeId": "com.amazon.iotsitewise.connector",
+            "creationDateTime": "2021-11-13T09:25:32.467000+09:00",
+            "description": "IoT SiteWise connector for syncing asset properties",
+            "status": {
+                "error": {},
+                "state": "ACTIVE"
+            },
+            "updateDateTime": "2021-11-13T09:25:32.467000+09:00"
+        },
+```        
+        
 
 ## Reference
 
