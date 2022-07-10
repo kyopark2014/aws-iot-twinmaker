@@ -80,6 +80,11 @@ $ aws iottwinmaker list-entities --workspace-id MyWorkspace --region us-east-1
 $ aws iottwinmaker delete-entity --entity-id a2cb48b1-e30b-4564-9f4e-5310abd2be27 --workspace-id MyWorkspace --region us-east-1
 ```
 
+#### [Workspace 삭제](https://docs.aws.amazon.com/cli/latest/reference/iottwinmaker/delete-workspace.html)
+
+```c
+$ aws iottwinmaker delete-workspace --workspace-id MyWorkspace --region us-east-1
+```
 
 ## Reference
 
