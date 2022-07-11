@@ -7,9 +7,7 @@
 
 ## TwinMaker CLI
 
-아래는 AWS Console에서 Component 삭제가 안될 경우에 사용할 수 있는 TwinMaker CLI 예제 입니다. 
-
-
+아래는 AWS Console에서 Entity 삭제가 안될 경우에 사용할 수 있는 TwinMaker CLI 예제 입니다. 
   
 
 ### [list-entities](https://docs.aws.amazon.com/cli/latest/reference/iottwinmaker/list-entities.html)
