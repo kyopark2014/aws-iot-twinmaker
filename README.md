@@ -5,21 +5,10 @@
 ![image](https://user-images.githubusercontent.com/52392004/177949327-b53be455-fee7-475d-ba07-96ba3d31fc58.png)
 
 
+## TwinMaker CLI
 
-```java
-$ aws iottwinmaker list-workspaces --region us-east-1
-{
-    "workspaceSummaries": [
-        {
-            "arn": "arn:aws:iottwinmaker:us-east-1:123456789012:workspace/MyWorkspace",
-            "creationDateTime": "2022-07-03T09:58:25.017000+09:00",
-            "description": "",
-            "updateDateTime": "2022-07-03T09:58:45.463000+09:00",
-            "workspaceId": "MyWorkspace"
-        }
-    ]
-}
-```
+아래는 AWS Console에서 Component 삭제가 안될 경우에 사용할 수 있는 TwinMaker CLI 예제 입니다. 
+
 
 #### [componet list](https://docs.aws.amazon.com/cli/latest/reference/iottwinmaker/list-component-types.html) 조회 
 
@@ -81,6 +70,23 @@ $ aws iottwinmaker delete-entity --entity-id a2cb48b1-e30b-4564-9f4e-5310abd2be2
 ```
 
 #### [Workspace 삭제](https://docs.aws.amazon.com/cli/latest/reference/iottwinmaker/delete-workspace.html)
+
+
+
+```java
+$ aws iottwinmaker list-workspaces --region us-east-1
+{
+    "workspaceSummaries": [
+        {
+            "arn": "arn:aws:iottwinmaker:us-east-1:123456789012:workspace/MyWorkspace",
+            "creationDateTime": "2022-07-03T09:58:25.017000+09:00",
+            "description": "",
+            "updateDateTime": "2022-07-03T09:58:45.463000+09:00",
+            "workspaceId": "MyWorkspace"
+        }
+    ]
+}
+```
 
 ```c
 $ aws iottwinmaker delete-workspace --workspace-id MyWorkspace --region us-east-1
